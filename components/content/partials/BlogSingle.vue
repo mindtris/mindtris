@@ -26,7 +26,7 @@
                 <div class="flex items-center gap-3">
                   <img
                     class="inline-flex shrink-0 rounded-full"
-                    src="../images/post-author-05.jpg"
+                    src="../../../images/post-author-05.jpg"
                     width="36"
                     height="36"
                     alt="Author 05"
@@ -62,7 +62,7 @@
             >
               <img
                 class="opacity-70 grayscale"
-                src="../images/post-image-01.jpg"
+                src="../../../images/post-image-01.jpg"
                 width="1104"
                 height="576"
                 alt="Article 01"
@@ -99,7 +99,7 @@
                 >
                   <img
                     class="m-0 w-full opacity-70 grayscale"
-                    src="../images/post-inner-image.jpg"
+                    src="../../../images/post-inner-image.jpg"
                     width="768"
                     height="432"
                     alt="News inner"
@@ -215,7 +215,7 @@
                 >
                   <img
                     class="aspect-[101/64] w-full object-cover opacity-70 grayscale transition ease-out group-hover:scale-[1.02] group-hover:opacity-100 group-hover:grayscale-[20%]"
-                    src="../images/post-thumb-10.jpg"
+                    src="../../../images/post-thumb-10.jpg"
                     width="347"
                     height="220"
                     alt="Article 10"
@@ -248,7 +248,7 @@
               <footer class="flex items-center gap-3">
                 <img
                   class="inline-flex shrink-0 rounded-full"
-                  src="../images/post-author-04.jpg"
+                  src="../../../images/post-author-04.jpg"
                   width="28"
                   height="28"
                   alt="Author 04"
@@ -274,7 +274,7 @@
                 >
                   <img
                     class="aspect-[101/64] w-full object-cover opacity-70 grayscale transition ease-out group-hover:scale-[1.02] group-hover:opacity-100 group-hover:grayscale-[20%]"
-                    src="../images/post-thumb-11.jpg"
+                    src="../../../images/post-thumb-11.jpg"
                     width="347"
                     height="220"
                     alt="Article 11"
@@ -306,7 +306,7 @@
               <footer class="flex items-center gap-3">
                 <img
                   class="inline-flex shrink-0 rounded-full"
-                  src="../images/post-author-05.jpg"
+                  src="../../../images/post-author-05.jpg"
                   width="28"
                   height="28"
                   alt="Author 05"
@@ -332,7 +332,7 @@
                 >
                   <img
                     class="aspect-[101/64] w-full object-cover opacity-70 grayscale transition ease-out group-hover:scale-[1.02] group-hover:opacity-100 group-hover:grayscale-[20%]"
-                    src="../images/post-thumb-12.jpg"
+                    src="../../../images/post-thumb-12.jpg"
                     width="347"
                     height="220"
                     alt="Article 12"
@@ -365,7 +365,7 @@
               <footer class="flex items-center gap-3">
                 <img
                   class="inline-flex shrink-0 rounded-full"
-                  src="../images/post-author-05.jpg"
+                  src="../../../images/post-author-05.jpg"
                   width="28"
                   height="28"
                   alt="Author 05"

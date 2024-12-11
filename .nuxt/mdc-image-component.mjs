@@ -1,0 +1,1 @@
+export { default } from "/home/suneel/projects/mindtris/mindtris/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"

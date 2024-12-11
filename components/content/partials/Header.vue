@@ -37,6 +37,9 @@
             <li>
               <router-link class="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" to="/help">Help Centre</router-link>
             </li>
+            <li>
+                <router-link class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" to="/contact">Contact Us</router-link>
+              </li>
           </ul>
 
         </nav>

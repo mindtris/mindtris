@@ -701,7 +701,7 @@ const _inlineRuntimeConfig = {
         "headers": {
           "Content-Type": "text/xml; charset=UTF-8",
           "Cache-Control": "public, max-age=600, must-revalidate",
-          "X-Sitemap-Prerendered": "2024-12-11T18:51:00.659Z"
+          "X-Sitemap-Prerendered": "2024-12-11T19:21:11.572Z"
         }
       },
       "/_fonts/**": {

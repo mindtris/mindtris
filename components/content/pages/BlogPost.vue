@@ -19,7 +19,7 @@ import Footer from "./../partials/Footer.vue";
       <PageIllustration multiple />
 
       <!-- Page sections -->
-      <BlogSingle />
+      <!--  -->
       <Cta />
     </main>
 

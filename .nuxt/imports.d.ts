@@ -32,6 +32,8 @@ export { useDirectory } from '../composables/useDirectory';
 export { useFeatured } from '../composables/useFeatured';
 export { default as useKeyFocus } from '../composables/useKeyFocus';
 export { useTags } from '../composables/useTags';
+export { extendComponentMeta } from '../node_modules/nuxt-component-meta/dist/runtime/composables/extendComponentMeta';
+export { __getComponentMeta, useComponentMeta } from '../node_modules/nuxt-component-meta/dist/runtime/composables/useComponentMeta';
 export { updateSiteConfig } from '../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/updateSiteConfig';
 export { useNitroOrigin } from '../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useNitroOrigin';
 export { useSiteConfig } from '../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useSiteConfig';
@@ -80,5 +82,4 @@ export { useSchemaOrg } from '../node_modules/nuxt-schema-org/dist/runtime/app/c
 export { useI18n } from '../node_modules/@nuxtjs/seo/dist/runtime/nuxt/composables/polyfills';
 export { useBreadcrumbItems } from '../node_modules/@nuxtjs/seo/dist/runtime/nuxt/composables/useBreadcrumbItems';
 export { useImage } from '../node_modules/@nuxt/image/dist/runtime/composables';
-export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

@@ -43,6 +43,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
+      autoSubfolderIndex: false,
       failOnError: false,
       crawlLinks: true,
       routes: ["/", "/sitemap.xml"],

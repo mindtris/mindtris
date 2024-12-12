@@ -15,19 +15,19 @@ declare module 'nitropack' {
 
 declare module '#nuxt-og-image/components' {
   export interface OgImageComponents {
-    'CoverImage': typeof import('../../components/OgImage/CoverImage.vue')['default']
-    'Custom': typeof import('../../components/OgImage/Custom.vue')['default']
-    'Emoji': typeof import('../../components/OgImage/Emoji.vue')['default']
-    'Simple': typeof import('../../components/OgImage/Simple.vue')['default']
-    'BrandedLogo': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/BrandedLogo.vue')['default']
-    'Frame': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/Frame.vue')['default']
-    'Nuxt': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/Nuxt.vue')['default']
-    'NuxtSeo': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/NuxtSeo.vue')['default']
-    'Pergel': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/Pergel.vue')['default']
-    'SimpleBlog': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/SimpleBlog.vue')['default']
-    'UnJs': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/UnJs.vue')['default']
-    'Wave': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/Wave.vue')['default']
-    'WithEmoji': typeof import('../../node_modules/nuxt-og-image/dist/runtime/nuxt/components/Templates/Community/WithEmoji.vue')['default']
+    'CoverImage': typeof import('../..')['default']
+    'Custom': typeof import('../..')['default']
+    'Emoji': typeof import('../..')['default']
+    'Simple': typeof import('../..')['default']
+    'BrandedLogo': typeof import('../..')['default']
+    'Frame': typeof import('../..')['default']
+    'Nuxt': typeof import('../..')['default']
+    'NuxtSeo': typeof import('../..')['default']
+    'Pergel': typeof import('../..')['default']
+    'SimpleBlog': typeof import('../..')['default']
+    'UnJs': typeof import('../..')['default']
+    'Wave': typeof import('../..')['default']
+    'WithEmoji': typeof import('../..')['default']
   }
 }
 declare module '#nuxt-og-image/unocss-config' {

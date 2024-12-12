@@ -18,6 +18,7 @@ declare global {
   const SegmentOptions: typeof import('../../node_modules/@nuxt/scripts/dist/runtime/registry/segment')['SegmentOptions']
   const StripeOptions: typeof import('../../node_modules/@nuxt/scripts/dist/runtime/registry/stripe')['StripeOptions']
   const XPixelOptions: typeof import('../../node_modules/@nuxt/scripts/dist/runtime/registry/x-pixel')['XPixelOptions']
+  const __getComponentMeta: typeof import('../../node_modules/nuxt-component-meta/dist/runtime/composables/useComponentMeta')['__getComponentMeta']
   const abortNavigation: typeof import('../../node_modules/nuxt/dist/app/composables/router')['abortNavigation']
   const addRouteMiddleware: typeof import('../../node_modules/nuxt/dist/app/composables/router')['addRouteMiddleware']
   const callOnce: typeof import('../../node_modules/nuxt/dist/app/composables/once')['callOnce']
@@ -81,6 +82,7 @@ declare global {
   const defineWebSite: typeof import('../../node_modules/nuxt-schema-org/node_modules/@unhead/schema-org/vue')['defineWebSite']
   const effect: typeof import('vue')['effect']
   const effectScope: typeof import('vue')['effectScope']
+  const extendComponentMeta: typeof import('../../node_modules/nuxt-component-meta/dist/runtime/composables/extendComponentMeta')['extendComponentMeta']
   const fetchContentNavigation: typeof import('../../node_modules/@nuxt/content/dist/runtime/legacy/composables/navigation')['fetchContentNavigation']
   const getAppManifest: typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getAppManifest']
   const getCurrentInstance: typeof import('vue')['getCurrentInstance']
@@ -160,6 +162,7 @@ declare global {
   const useAttrs: typeof import('vue')['useAttrs']
   const useBreadcrumbItems: typeof import('../../node_modules/@nuxtjs/seo/dist/runtime/nuxt/composables/useBreadcrumbItems')['useBreadcrumbItems']
   const useColorMode: typeof import('../../node_modules/@nuxtjs/color-mode/dist/runtime/composables')['useColorMode']
+  const useComponentMeta: typeof import('../../node_modules/nuxt-component-meta/dist/runtime/composables/useComponentMeta')['useComponentMeta']
   const useContent: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/content')['useContent']
   const useContentHead: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/head')['useContentHead']
   const useContentHelpers: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/helpers')['useContentHelpers']
@@ -187,7 +190,6 @@ declare global {
   const useNitroOrigin: typeof import('../../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useNitroOrigin')['useNitroOrigin']
   const useNuxtApp: typeof import('../../node_modules/nuxt/dist/app/nuxt')['useNuxtApp']
   const useNuxtData: typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']
-  const useNuxtDevTools: typeof import('../../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']
   const usePreviewMode: typeof import('../../node_modules/nuxt/dist/app/composables/preview')['usePreviewMode']
   const useRequestEvent: typeof import('../../node_modules/nuxt/dist/app/composables/ssr')['useRequestEvent']
   const useRequestFetch: typeof import('../../node_modules/nuxt/dist/app/composables/ssr')['useRequestFetch']
@@ -279,6 +281,7 @@ declare module 'vue' {
     readonly SegmentOptions: UnwrapRef<typeof import('../../node_modules/@nuxt/scripts/dist/runtime/registry/segment')['SegmentOptions']>
     readonly StripeOptions: UnwrapRef<typeof import('../../node_modules/@nuxt/scripts/dist/runtime/registry/stripe')['StripeOptions']>
     readonly XPixelOptions: UnwrapRef<typeof import('../../node_modules/@nuxt/scripts/dist/runtime/registry/x-pixel')['XPixelOptions']>
+    readonly __getComponentMeta: UnwrapRef<typeof import('../../node_modules/nuxt-component-meta/dist/runtime/composables/useComponentMeta')['__getComponentMeta']>
     readonly abortNavigation: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/router')['abortNavigation']>
     readonly addRouteMiddleware: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/router')['addRouteMiddleware']>
     readonly callOnce: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/once')['callOnce']>
@@ -342,6 +345,7 @@ declare module 'vue' {
     readonly defineWebSite: UnwrapRef<typeof import('../../node_modules/nuxt-schema-org/node_modules/@unhead/schema-org/vue')['defineWebSite']>
     readonly effect: UnwrapRef<typeof import('vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('vue')['effectScope']>
+    readonly extendComponentMeta: UnwrapRef<typeof import('../../node_modules/nuxt-component-meta/dist/runtime/composables/extendComponentMeta')['extendComponentMeta']>
     readonly fetchContentNavigation: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/legacy/composables/navigation')['fetchContentNavigation']>
     readonly getAppManifest: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/manifest')['getAppManifest']>
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
@@ -421,6 +425,7 @@ declare module 'vue' {
     readonly useAttrs: UnwrapRef<typeof import('vue')['useAttrs']>
     readonly useBreadcrumbItems: UnwrapRef<typeof import('../../node_modules/@nuxtjs/seo/dist/runtime/nuxt/composables/useBreadcrumbItems')['useBreadcrumbItems']>
     readonly useColorMode: UnwrapRef<typeof import('../../node_modules/@nuxtjs/color-mode/dist/runtime/composables')['useColorMode']>
+    readonly useComponentMeta: UnwrapRef<typeof import('../../node_modules/nuxt-component-meta/dist/runtime/composables/useComponentMeta')['useComponentMeta']>
     readonly useContent: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/content')['useContent']>
     readonly useContentHead: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/head')['useContentHead']>
     readonly useContentHelpers: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/helpers')['useContentHelpers']>
@@ -448,7 +453,6 @@ declare module 'vue' {
     readonly useNitroOrigin: UnwrapRef<typeof import('../../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useNitroOrigin')['useNitroOrigin']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/nuxt')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']>
-    readonly useNuxtDevTools: UnwrapRef<typeof import('../../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']>
     readonly usePreviewMode: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/preview')['usePreviewMode']>
     readonly useRequestEvent: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/ssr')['useRequestEvent']>
     readonly useRequestFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/ssr')['useRequestFetch']>

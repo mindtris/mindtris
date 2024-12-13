@@ -12,8 +12,21 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
     "@nuxt/image",
     "@nuxt/fonts",
+    "@nuxtjs/sitemap",
   ],
-
+  // sitemap: {
+  //   hostname: 'https://your-website.com', // Replace with your site's URL
+  //   gzip: true,
+  //   routes: async () => {
+  //     // Fetch dynamic routes (optional)
+  //     return [
+  //       '/about',
+  //       '/contact',
+  //       '/products/1',
+  //       '/products/2'
+  //     ];
+  //   }
+  // },
   colorMode: {
     classSuffix: "",
   },

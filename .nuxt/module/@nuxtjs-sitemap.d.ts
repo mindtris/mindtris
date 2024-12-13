@@ -3,21 +3,21 @@
 declare module 'nitropack' {
   interface NitroRouteRules {
     index?: boolean
-    sitemap?: import('../../node_modules/@nuxtjs/sitemap/runtime/types').SitemapItemDefaults
+    sitemap?: import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/runtime/types').SitemapItemDefaults
   }
   interface NitroRouteConfig {
     index?: boolean
-    sitemap?: import('../../node_modules/@nuxtjs/sitemap/runtime/types').SitemapItemDefaults
+    sitemap?: import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/runtime/types').SitemapItemDefaults
   }
   interface NitroRuntimeHooks {
-    'sitemap:index-resolved': (ctx: import('../../node_modules/@nuxtjs/sitemap/runtime/types').SitemapIndexRenderCtx) => void | Promise<void>
-    'sitemap:resolved': (ctx: import('../../node_modules/@nuxtjs/sitemap/runtime/types').SitemapRenderCtx) => void | Promise<void>
-    'sitemap:output': (ctx: import('../../node_modules/@nuxtjs/sitemap/runtime/types').SitemapOutputHookCtx) => void | Promise<void>
+    'sitemap:index-resolved': (ctx: import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/runtime/types').SitemapIndexRenderCtx) => void | Promise<void>
+    'sitemap:resolved': (ctx: import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/runtime/types').SitemapRenderCtx) => void | Promise<void>
+    'sitemap:output': (ctx: import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/runtime/types').SitemapOutputHookCtx) => void | Promise<void>
   }
 }
 declare module 'vue-router' {
     interface RouteMeta {
-        sitemap?: import('../../node_modules/@nuxtjs/sitemap/runtime/types').SitemapItemDefaults
+        sitemap?: import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/runtime/types').SitemapItemDefaults
     }
 }
 

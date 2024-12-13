@@ -15,6 +15,7 @@ declare module "#build/content-components.mjs";
 declare module "#build/color-mode-options.mjs";
 declare module "#build/nuxt-og-image/components.mjs";
 declare module "#build/image-options.mjs";
+declare module "#build/devtools/settings.mjs";
 declare module "#build/routes.mjs";
 declare module "#build/pages.mjs";
 declare module "#build/router.options.mjs";

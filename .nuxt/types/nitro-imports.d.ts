@@ -7,7 +7,7 @@ declare global {
   const appendHeaders: typeof import('../../node_modules/h3')['appendHeaders']
   const appendResponseHeader: typeof import('../../node_modules/h3')['appendResponseHeader']
   const appendResponseHeaders: typeof import('../../node_modules/h3')['appendResponseHeaders']
-  const asSitemapUrl: typeof import('../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/asSitemapUrl')['asSitemapUrl']
+  const asSitemapUrl: typeof import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/asSitemapUrl')['asSitemapUrl']
   const assertMethod: typeof import('../../node_modules/h3')['assertMethod']
   const cachedEventHandler: typeof import('../../node_modules/nitropack/dist/runtime/internal/cache')['cachedEventHandler']
   const cachedFunction: typeof import('../../node_modules/nitropack/dist/runtime/internal/cache')['cachedFunction']
@@ -35,7 +35,7 @@ declare global {
   const defineRequestMiddleware: typeof import('../../node_modules/h3')['defineRequestMiddleware']
   const defineResponseMiddleware: typeof import('../../node_modules/h3')['defineResponseMiddleware']
   const defineRouteMeta: typeof import('../../node_modules/nitropack/dist/runtime/internal/meta')['defineRouteMeta']
-  const defineSitemapEventHandler: typeof import('../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/defineSitemapEventHandler')['defineSitemapEventHandler']
+  const defineSitemapEventHandler: typeof import('../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/defineSitemapEventHandler')['defineSitemapEventHandler']
   const defineTask: typeof import('../../node_modules/nitropack/dist/runtime/internal/task')['defineTask']
   const defineWebSocket: typeof import('../../node_modules/h3')['defineWebSocket']
   const defineWebSocketHandler: typeof import('../../node_modules/h3')['defineWebSocketHandler']
@@ -152,8 +152,8 @@ export { appendCorsHeaders, appendCorsPreflightHeaders, appendHeader, appendHead
 export { buildAssetsURL as __buildAssetsURL, publicAssetsURL as __publicAssetsURL } from '../../node_modules/nuxt/dist/core/runtime/nitro/paths';
 export { defineAppConfig } from '../../node_modules/nuxt/dist/core/runtime/nitro/config';
 export { parseMarkdown } from '../../node_modules/@nuxtjs/mdc/dist/runtime/parser';
-export { defineSitemapEventHandler } from '../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/defineSitemapEventHandler';
-export { asSitemapUrl } from '../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/asSitemapUrl';
+export { defineSitemapEventHandler } from '../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/defineSitemapEventHandler';
+export { asSitemapUrl } from '../../node_modules/@nuxtjs/seo/node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/asSitemapUrl';
 export { getSiteIndexable } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/getSiteIndexable';
 export { updateSiteConfig } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/updateSiteConfig';
 export { useNitroOrigin } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/useNitroOrigin';

@@ -98,15 +98,3 @@ input[type="search"]::-webkit-search-results-decoration {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-/* h2,h1,h3 {
-    margin:0 !important;
- }
- p{
-    margin-top: 0 !important;
- }
- h3 a, header a, a {
-     border: none !important;
- }
- .text-transparent {
-     color: transparent !important;
- } */

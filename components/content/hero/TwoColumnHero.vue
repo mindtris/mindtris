@@ -21,7 +21,7 @@ const props = defineProps(['imgSrc']);
   </div>
 </template>
 
-<style lang="postcss">
+<!-- <style lang="postcss">
 .highlight span {
   @apply bg-gray-800 text-white px-1 -rotate-6;
 }
@@ -29,4 +29,4 @@ const props = defineProps(['imgSrc']);
 .dashedcue span {
   @apply underline underline-offset-4 decoration-primary-600 decoration-dashed;
 }
-</style>
+</style> -->

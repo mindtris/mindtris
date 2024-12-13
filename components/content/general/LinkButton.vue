@@ -11,7 +11,7 @@ const usedColor: string = props.color ? props.color : 'primary';
     <slot />
   </a>
 </template>
-
+<!-- 
 <style scoped lang="postcss">
 .blue {
   @apply bg-blue-600 hover:bg-blue-500 focus-visible:outline-blue-600;
@@ -24,4 +24,4 @@ const usedColor: string = props.color ? props.color : 'primary';
 .indigo {
   @apply bg-indigo-600 hover:bg-indigo-600 focus-visible:outline-indigo-600;
 }
-</style>
+</style> -->

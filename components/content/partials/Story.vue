@@ -20,7 +20,7 @@
 
           <!-- Section header -->
           <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 class="h2 text-5xl m-0 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60">Our story (so far)</h2>
+            <h2 class="h2 m-0 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60">Our story (so far)</h2>
           </div>
 
           <div class="md:flex justify-between space-x-6 md:space-x-8 lg:space-x-14">

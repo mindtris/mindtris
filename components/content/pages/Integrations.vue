@@ -1,5 +1,5 @@
 <template>
-  <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
+  <div className="not-prose flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
 
     <!-- Page content -->
     <main class="grow">

@@ -8,7 +8,7 @@ import Footer from "./../partials/Footer.vue";
 
 <template>
   <div
-    class="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip"
+    class="not-prose flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip"
   >
     <!-- Site header -->
     <Header />
